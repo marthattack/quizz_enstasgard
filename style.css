@@ -1,0 +1,54 @@
+body{
+    background-image: url("wallpaper.png");
+    background-size: cover;
+}
+
+.titre{
+    font-family: Papyrus;
+    color: rgba(65, 51, 15, 0.993);
+    font-size: 250%;
+    background-color: rgba(219, 179, 94, 0.767);
+    width : 50%;
+    border-radius: 20px;
+}
+
+.intro{
+    font-family: Papyrus;
+    background-color: burlywood;
+    color: black;
+    border-radius: 20px;
+    font-size: 120%;
+    width : 70%;
+}
+
+.choix {
+	
+	width: 6%;
+	border-radius: 40px;
+    border-color: rgb(136, 7, 7);
+	right: 4%;
+	bottom:7%;
+	background-color: goldenrod;
+
+}
+
+.code{
+    height: 400px;
+}
+
+.secret {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.secret:hover {
+    cursor: text;
+}
+
+.portail{
+    color :rgb(2, 2, 128);
+    border-color: rgb(1, 1, 53);
+    border-radius: 100px;
+    width : 30%;
+    height : 20%;
+}

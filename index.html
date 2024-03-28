@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang='fr'>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Quizz ENSTAsgard</title>
+	</head>
+
+    <body>
+        <center>
+        <div >
+			<h1 class="titre">Les légendes de l'ENSIETA</h1>
+		</div>
+
+        <div>
+            <p class="intro" id="enigme">Bienvenue à toi jeune Enstasien !</br>
+            Commme tu le sais, notre école héritière de 200 ans d'histoire regorge de légendes et d'histoire en tout genre.
+            Il est donc temps de tester ta connaissance de nos traditions à travers une série de questions qui te permettront de
+            remporter de grands trésors. Mais comme l'histoire de l'école s'écrit aussi pendant ces campagnes, certaines questions
+            porteront également sur le thème de notre liste : la mythologie nordique !</br>Sachez que ce quizz est 
+            spécialement conçu pour nos chers 3A, substit' et autres césuriers, toutes les réponses sont donc trouvables sur internet et être physiquement à
+            l'école <a class="secret" href="passage.html">n</a>'est pas un avantage (attention, certaines réponses sont quand même très bien planquées).</br>Pour commencer, une énigme facile :</br>Quelle est le nom de notre liste ?</p>
+        </div>
+
+
+        <div id="lockee_div">
+            <iframe id="lockee" class="code" src="https://lockee.fr/o/Zt2C51oE" height="500" width="350" frameborder="0"></iframe>
+        </div>
+
+        <div class="niveau">
+            <input id="dep" class="choix" type="button" value="Depart" onclick="redir(10)">
+            <input id="un" class="choix" type="button" value="Midgard" onclick="redir(1)">
+            <input id="deux" class="choix" type="button" value="Jötunheim" onclick="redir(2)">
+            <input id="trois" class="choix" type="button" value="Vanaheim" onclick="redir(3)">
+            <input id="quatre" class="choix" type="button" value="Asgard" onclick="redir(4)">
+            <input id="cinq" class="choix" type="button" value="Alfheim" onclick="redir(5)">
+            <input id="six" class="choix" type="button" value="Svartalfheim" onclick="redir(6)">
+            <input id="sept" class="choix" type="button" value="Muspellheim" onclick="redir(7)">
+            <input id="huit" class="choix" type="button" value="Nilfreim" onclick="redir(8)">
+            <input id="neuf" class="choix" type="button" value="Helheim" onclick="redir(9)">
+            
+        </div>
+        </center>
+
+    </body>
+
+    <script>
+        function redir(page)
+        {
+            switch(page)
+            {
+                case 1:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/uN4HqswT\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°1</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi les énigmes précédentes)"
+                    break;
+                case 2:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/0XsiRrUz\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°2</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 3:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/2PqWpqqT\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°3</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 4:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\" https://lockee.fr/o/MCqmun9F\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe><iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/ggJMkTcZ\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe><iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/wB9jJU98\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°4</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 5:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/8SbQdO7L\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°5</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 6:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/DTPggTIe\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°6</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 7:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/x4V6BFbf\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°7</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)</br>Pour cette énigme, utilisez la lattitude/longitude putôt que la carte"
+                    break;
+                case 8:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/WQL0uz0w\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°8</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 9:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/qyGPeBQf\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Enigme n°9</br>L'énigme vous a déjà été donnée si vous avez réussi l'énigme précédente.</br>(Et oui, les mondes en bas ne sont que des raccourcis pour ceux qui ont réussi la première énigme)"
+                    break;
+                case 10:
+                    document.getElementById("lockee_div").innerHTML = "<iframe id=\"lockee\" class=\"code\" src=\"https://lockee.fr/o/Zt2C51oE\" height=\"500\" width=\"350\" frameborder=\"0\"></iframe>"
+                    document.getElementById("enigme").innerHTML = "Bienvenue à toi jeune Enstasien !</br>Commme tu le sais, notre école héritière de 200 ans d'histoire regorge de légendes et d'histoire en tout genre. Il est donc temps de tester ta connaissance de nos traditions à travers une série de questions qui te permettront de remporter de grands trésors. Mais comme l'histoire de l'école s'écrit aussi pendant ces campagnes, certaines questions porteront également sur le thème de notre liste : la mythologie nordique !</br>Sachez que ce quizz est spécialement conçu pour nos chers 3A, substit' et autres césuriers, toutes les réponses sont donc trouvables sur internet et être physiquement à l'école <a class=\"secret\" href=\"passage.html\">n</a>'est pas un avantage (attention, certaines réponses sont quand même très bien planquées).</br>Pour commencer, une énigme facile :</br>Quelle est le nom de notre liste ?</p>"
+                    break;
+                default:
+                    window.location.href = "index.html";
+                    break;
+            }
+        }
+
+        function tunnel()
+        {
+            window.location.href = "passage.html";
+        }
+    </script>
+
+</html>
